@@ -1,0 +1,110 @@
+.icon-box {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.icon-box .icon {
+    margin-bottom: 15px;
+}
+
+.icon-box h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+}
+
+.icon-box a {
+    color: #333;
+    text-decoration: none;
+}
+
+.icon-box a:hover {
+    color: #522db2;
+}
+
+#rpa-solution .section-header h2 {
+    color: #472c85;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#rpa-solution .section-header p {
+    color: #333;
+    font-size: 1.1rem;
+}
+
+#rpa-solution .icon-box {
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    border-radius: 8px;
+    color: #f69c00;
+}
+
+#rpa-solution .icon-box i {
+    font-size: 3rem;
+    color: #f69c00;
+    margin-bottom: 10px;
+}
+
+#rpa-solution .icon-box h4 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #472c85;
+    padding: 10px;
+}
+
+#rpa-solution .icon-box:hover h4 {
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+#competitive-advantages .section-header h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#competitive-advantages .col-lg-4 h3 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+    color: #f69c00;
+}
+
+#competitive-advantages .col-lg-4 p {
+    font-size: 1.1rem;
+    text-align: center;
+    color: #fff;
+}
+
+#competitive-advantages .icon-container {
+    background-color: white;
+    border-radius: 50%;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+#competitive-advantages .img-fluid {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+#competitive-advantages .col-lg-4 {
+    margin-bottom: 30px;
+}
