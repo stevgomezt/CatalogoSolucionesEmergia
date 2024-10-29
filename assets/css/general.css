@@ -1,6 +1,7 @@
 /*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
+  # # General
+  --------------------------------------------------------------*/
+
 body {
     font-family: "Open Sans", sans-serif;
     color: #444444;
@@ -27,8 +28,9 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-  # Preloader
+  # # Preloader
   --------------------------------------------------------------*/
+
 #preloader {
     position: fixed;
     top: 0;
@@ -65,8 +67,9 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-  # Back to top button
+  # # Back to top button
   --------------------------------------------------------------*/
+
 .back-to-top {
     position: fixed;
     visibility: hidden;
@@ -98,8 +101,9 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-  # Disable aos animation delay on mobile devices
+  # # Disable aos animation delay on mobile devices
   --------------------------------------------------------------*/
+
 @media screen and (max-width: 768px) {
     [data-aos] {
         opacity: 1 !important;
@@ -108,8 +112,9 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Top Bar
---------------------------------------------------------------*/
+  # # Top Bar
+  --------------------------------------------------------------*/
+
 #topbar {
     background: #522db2;
     height: 40px;
@@ -153,8 +158,9 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-  # Header
+  # # Header
   --------------------------------------------------------------*/
+
 #header {
     background: #fff;
     transition: all 0.5s;
@@ -194,8 +200,9 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-  # Navigation Menu
+  # # Navigation Menu
   --------------------------------------------------------------*/
+
 /**
   * Desktop Navigation 
   */
@@ -451,8 +458,9 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-  # Hero Section
+  # # Hero Section
   --------------------------------------------------------------*/
+
 #hero {
     width: 100%;
     height: 75vh;
@@ -517,7 +525,11 @@ h6 {
 #hero .btn-watch-video {
     font-size: 16px;
     transition: color 0.3s ease;
-    /* margin-left: 25px; */
+
+    /*--------------------------------------------------------------
+  # margin-left: 25px;
+  --------------------------------------------------------------*/
+
     color: #222222;
     font-weight: 600;
     display: flex;
@@ -541,8 +553,9 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-  # Sections General
+  # # Sections General
   --------------------------------------------------------------*/
+
 section {
     padding: 60px 0;
     overflow: hidden;
@@ -596,8 +609,9 @@ h2 {
 }
 
 /*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
+  # # Footer
+  --------------------------------------------------------------*/
+
 #footer {
     background: #fff;
     padding: 0 0 30px 0;
@@ -659,7 +673,10 @@ h2 {
 
 #footer .footer-top {
     padding: 60px 0 30px 0;
-    /* background: #fff; */
+
+    /*--------------------------------------------------------------
+  # background: #fff;
+  --------------------------------------------------------------*/
 }
 
 #footer .footer-top .footer-contact {
@@ -776,8 +793,9 @@ h2 {
 }
 
 /*--------------------------------------------------------------
-  # Services
+  # # Services
   --------------------------------------------------------------*/
+
 .icon-box {
     padding: 30px;
     position: relative;
@@ -880,13 +898,23 @@ h2 {
 }
 
 .icono:hover {
-    color: #3d1579; /* Cambia el color del icono a morado */
-    transform: rotate(20deg); /* Gira el icono ligeramente */
+    color: #3d1579;
+
+    /*--------------------------------------------------------------
+  # Cambia el color del icono a morado
+  --------------------------------------------------------------*/
+
+    transform: rotate(20deg);
+
+    /*--------------------------------------------------------------
+  # Gira el icono ligeramente
+  --------------------------------------------------------------*/
 }
 
 /*--------------------------------------------------------------
-  # Call To Action Section
+  # # Call To Action Section
   --------------------------------------------------------------*/
+
 .call-to-action {
     background: linear-gradient(rgba(14, 29, 52, 0.6), rgba(14, 29, 52, 0.8)),
         url("../img/cta-bg.jpg") center center;
@@ -931,7 +959,11 @@ h2 {
 
 .custom-hover-image {
     transition: transform 0.3s ease, opacity 0.3s ease;
-    margin-bottom: 20px; /* Añade un espacio debajo de la imagen */
+    margin-bottom: 20px;
+
+    /*--------------------------------------------------------------
+  # Añade un espacio debajo de la imagen
+  --------------------------------------------------------------*/
 }
 
 .custom-hover-image:hover {
@@ -949,7 +981,11 @@ h2 {
     justify-content: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    margin: 0 auto; /* Centra el contenedor en dispositivos pequeños */
+    margin: 0 auto;
+
+    /*--------------------------------------------------------------
+  # Centra el contenedor en dispositivos pequeños
+  --------------------------------------------------------------*/
 }
 
 .partner-logo img {
@@ -958,7 +994,12 @@ h2 {
 }
 
 .partner-logo:hover {
-    transform: scale(1.1); /* Aumenta ligeramente el tamaño */
+    transform: scale(1.1);
+
+    /*--------------------------------------------------------------
+  # Aumenta ligeramente el tamaño
+  --------------------------------------------------------------*/
+
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
@@ -968,7 +1009,11 @@ h2 {
 }
 
 .card:hover {
-    transform: translateY(-5px); /* Efecto de elevación al pasar el cursor */
+    transform: translateY(-5px);
+
+    /*--------------------------------------------------------------
+  # Efecto de elevación al pasar el cursor
+  --------------------------------------------------------------*/
 }
 
 .card-text {
@@ -976,8 +1021,9 @@ h2 {
 }
 
 /*--------------------------------------------------------------
-  # Services with Colors
+  # # Services with Colors
   --------------------------------------------------------------*/
+
 .services-colors .service-box {
     box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
     height: 100%;
@@ -985,7 +1031,10 @@ h2 {
     text-align: center;
     transition: background 0.3s ease, color 0.3s ease;
     border-radius: 5px;
-    /* margin: 15px; */
+
+    /*--------------------------------------------------------------
+  # margin: 15px;
+  --------------------------------------------------------------*/
 }
 
 .services-colors .service-box .icon {
@@ -1133,8 +1182,9 @@ h2 {
 }
 
 /*--------------------------------------------------------------
-  # Parallax Effect
+  # # Parallax Effect
   --------------------------------------------------------------*/
+
 .parallax {
     background-attachment: fixed;
     background-position: center;
@@ -1163,4 +1213,374 @@ h2 {
     width: 100%;
     height: auto;
     display: block;
+}
+
+/*--------------------------------------------------------------
+  # Nueva sección Voicebot Solution
+  --------------------------------------------------------------*/
+
+#voicebot-solution {
+    padding: 60px 0;
+}
+
+#voicebot-solution h2 {
+    color: #522db2;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#voicebot-solution .lead {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#voicebot-solution p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+#voicebot-solution .highlight {
+    color: #522db2;
+    font-weight: 700;
+}
+
+#voicebot-solution .final-cta {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+}
+
+#voicebot-solution .info-box {
+    background: #f9f9f9;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+#voicebot-solution .info-box h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+#voicebot-solution .list-features {
+    list-style: none;
+    padding: 0;
+}
+
+#voicebot-solution .list-features li {
+    font-size: 16px;
+    padding-left: 20px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+#voicebot-solution .list-features li:before {
+    content: "•";
+    color: #522db2;
+    position: absolute;
+    left: 0;
+    font-size: 20px;
+}
+
+/*--------------------------------------------------------------
+  # Responsive adjustments
+  --------------------------------------------------------------*/
+
+@media (max-width: 768px) {
+    #voicebot-solution {
+        text-align: center;
+    }
+
+    #voicebot-solution .col-lg-8,
+    #voicebot-solution .col-lg-4 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #voicebot-solution .info-box {
+        margin-top: 20px;
+    }
+}
+
+/*--------------------------------------------------------------
+  # Nueva sección de Integración Tecnológica
+  --------------------------------------------------------------*/
+
+.tech-integration {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+.tech-integration .image-container {
+    text-align: center;
+}
+
+.tech-integration .image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+/*--------------------------------------------------------------
+  # Responsive
+  --------------------------------------------------------------*/
+
+@media (max-width: 768px) {
+    .tech-integration .image-container img {
+        max-width: 90%;
+    }
+}
+
+#competitive-advantages .section-header h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#competitive-advantages .col-lg-4 h3 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+    color: #f69c00;
+}
+
+#competitive-advantages .col-lg-4 p {
+    font-size: 1.1rem;
+    text-align: center;
+    color: #fff;
+}
+
+#competitive-advantages .icon-container {
+    background-color: white;
+    border-radius: 50%;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+#competitive-advantages .img-fluid {
+    border-radius: 10px;
+    max-width: 500px;
+    height: auto;
+}
+
+#competitive-advantages .col-lg-4 {
+    margin-bottom: 30px;
+}
+
+#tech-integration .icon-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+#tech-integration .icon-box:hover {
+    background-color: #ffb74d;
+
+    /*--------------------------------------------------------------
+  # Color hover
+  --------------------------------------------------------------*/
+
+    transform: scale(1.05);
+
+    /*--------------------------------------------------------------
+  # Efecto hover
+  --------------------------------------------------------------*/
+}
+
+#tech-integration h3 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+#tech-integration p {
+    font-size: 0.95rem;
+}
+
+#rpa-solution .section-header h2 {
+    color: #472c85;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#rpa-solution .section-header p {
+    color: #333;
+    font-size: 1.1rem;
+}
+
+#rpa-solution .icon-box {
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    border-radius: 8px;
+    color: #f69c00;
+}
+
+#rpa-solution .icon-box i {
+    font-size: 3rem;
+    color: #f69c00;
+    margin-bottom: 10px;
+}
+
+#rpa-solution .icon-box h4 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #472c85;
+    padding: 10px;
+}
+
+#rpa-solution .icon-box:hover h4 {
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.icon-box {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.icon-box .icon {
+    margin-bottom: 15px;
+}
+
+.icon-box h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+}
+
+.icon-box a {
+    color: #333;
+    text-decoration: none;
+}
+
+.icon-box a:hover {
+    color: #522db2;
+}
+
+#rpa-solution .section-header h2 {
+    color: #472c85;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#rpa-solution .section-header p {
+    color: #333;
+    font-size: 1.1rem;
+}
+
+#rpa-solution .icon-box {
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    border-radius: 8px;
+    color: #f69c00;
+}
+
+#rpa-solution .icon-box i {
+    font-size: 3rem;
+    color: #f69c00;
+    margin-bottom: 10px;
+}
+
+#rpa-solution .icon-box h4 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #472c85;
+    padding: 10px;
+}
+
+#rpa-solution .icon-box:hover h4 {
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+#competitive-advantages .section-header h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#competitive-advantages .col-lg-4 h3 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+    color: #f69c00;
+}
+
+#competitive-advantages .col-lg-4 p {
+    font-size: 1.1rem;
+    text-align: center;
+    color: #fff;
+}
+
+#competitive-advantages .icon-container {
+    background-color: white;
+    border-radius: 50%;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+#competitive-advantages .img-fluid {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+#competitive-advantages .col-lg-4 {
+    margin-bottom: 30px;
+}
+
+.advantage-card {
+    background-color: #5e3c95;
+
+    /*--------------------------------------------------------------
+  # Un fondo más claro para las tarjetas
+  --------------------------------------------------------------*/
+
+    border-radius: 8px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.advantage-card:hover {
+    transform: translateY(-5px);
+
+    /*--------------------------------------------------------------
+  # Efecto de elevación al pasar el cursor
+  --------------------------------------------------------------*/
+}
+
+.advantage-card h4 {
+    margin-top: 15px;
+
+    /*--------------------------------------------------------------
+  # Espacio entre el ícono y el título
+  --------------------------------------------------------------*/
 }
